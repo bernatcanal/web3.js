@@ -1,4 +1,4 @@
-declare module 'web3' {
+declare module 'web3-eth' {
     import * as BigNumber from 'bignumber.js';
 
     type MixedData = string | number | object | any[] | BigNumber.BigNumber;
